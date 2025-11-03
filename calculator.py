@@ -16,7 +16,6 @@ class MetricCalculator:
         return correct / len(y_true)
     
     def add_metric(self, name, value):
-
         self.results.append((name, value))
     
     def get_results(self):
